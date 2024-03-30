@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:092dfda633bb1a930dc58bdeae0a1f26bb7f790753f2c52ba5b057219c7c8a30
-size 262
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['basketball', 'people', 'rim']
+
+roboflow:
+  workspace: cv-8scak
+  project: cv-cnfd4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cv-8scak/cv-cnfd4/dataset/1

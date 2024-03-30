@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d2d23dbe8401226a4c38118957d49f44ad0a16460945ad4769893df052f1b232
-size 220
+from simple_image_download import simple_image_download as simp
+response = simp.simple_image_download
+
+keywords = ['basket ball']
+
+for kw in keywords:
+    response().download(kw, 100)
+
+print("Download Completed")

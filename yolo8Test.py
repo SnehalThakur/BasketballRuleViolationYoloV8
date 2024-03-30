@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:681f33eedd77ab2b000d83ded08b8c524f658ec53fb603e71b7d5c572cb2c106
-size 351
+from PIL import Image
+from ultralytics import YOLO
+
+model = YOLO('yolov8n.pt')
+results = model('data/bb1.jpg')  # results list
+for r in results:
+    im_array = r.plot()  # plot a BGR numpy array of predictions
+    im = Image.fromarray(im_array[..., ::-1])  # RGB PIL image
+    im.show()  # show image
+    im.save('resultBB.jpg')  # save image

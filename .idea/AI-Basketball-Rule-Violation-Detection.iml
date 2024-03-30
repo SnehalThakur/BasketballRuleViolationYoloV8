@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:708a76019378d0ba63eb8dcc6dd77b307930fc8a8ffeffb7a6c8d1e50569e69e
-size 335
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="AI-Basketball-Referee" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

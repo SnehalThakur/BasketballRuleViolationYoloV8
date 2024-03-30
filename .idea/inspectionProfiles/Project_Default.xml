@@ -1,3 +1,90 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d355f97bd1fbfc6575f144f8f3be5320427d19c975c8eb4cc69df6ecff1168ae
-size 6135
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="68">
+            <item index="0" class="java.lang.String" itemvalue="scipy" />
+            <item index="1" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="2" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="3" class="java.lang.String" itemvalue="packaging" />
+            <item index="4" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="5" class="java.lang.String" itemvalue="numpy" />
+            <item index="6" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="7" class="java.lang.String" itemvalue="contourpy" />
+            <item index="8" class="java.lang.String" itemvalue="pandas" />
+            <item index="9" class="java.lang.String" itemvalue="seaborn" />
+            <item index="10" class="java.lang.String" itemvalue="zipp" />
+            <item index="11" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="12" class="java.lang.String" itemvalue="pytz" />
+            <item index="13" class="java.lang.String" itemvalue="Flask" />
+            <item index="14" class="java.lang.String" itemvalue="Pillow" />
+            <item index="15" class="java.lang.String" itemvalue="sanic" />
+            <item index="16" class="java.lang.String" itemvalue="multidict" />
+            <item index="17" class="java.lang.String" itemvalue="rasa-x" />
+            <item index="18" class="java.lang.String" itemvalue="ujson" />
+            <item index="19" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="20" class="java.lang.String" itemvalue="rsa" />
+            <item index="21" class="java.lang.String" itemvalue="sanic-routing" />
+            <item index="22" class="java.lang.String" itemvalue="python-crfsuite" />
+            <item index="23" class="java.lang.String" itemvalue="tzlocal" />
+            <item index="24" class="java.lang.String" itemvalue="greenlet" />
+            <item index="25" class="java.lang.String" itemvalue="isodate" />
+            <item index="26" class="java.lang.String" itemvalue="smmap" />
+            <item index="27" class="java.lang.String" itemvalue="typing-utils" />
+            <item index="28" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="29" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="30" class="java.lang.String" itemvalue="h11" />
+            <item index="31" class="java.lang.String" itemvalue="partd" />
+            <item index="32" class="java.lang.String" itemvalue="bidict" />
+            <item index="33" class="java.lang.String" itemvalue="gitdb" />
+            <item index="34" class="java.lang.String" itemvalue="rfc3986" />
+            <item index="35" class="java.lang.String" itemvalue="sniffio" />
+            <item index="36" class="java.lang.String" itemvalue="pyrsistent" />
+            <item index="37" class="java.lang.String" itemvalue="python3-saml" />
+            <item index="38" class="java.lang.String" itemvalue="requests-oauthlib" />
+            <item index="39" class="java.lang.String" itemvalue="sanic-plugin-toolkit" />
+            <item index="40" class="java.lang.String" itemvalue="fire" />
+            <item index="41" class="java.lang.String" itemvalue="lxml" />
+            <item index="42" class="java.lang.String" itemvalue="requests-async" />
+            <item index="43" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="44" class="java.lang.String" itemvalue="GitPython" />
+            <item index="45" class="java.lang.String" itemvalue="xmlsec" />
+            <item index="46" class="java.lang.String" itemvalue="botocore" />
+            <item index="47" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="48" class="java.lang.String" itemvalue="python-engineio" />
+            <item index="49" class="java.lang.String" itemvalue="aiofiles" />
+            <item index="50" class="java.lang.String" itemvalue="aiogram" />
+            <item index="51" class="java.lang.String" itemvalue="tensorflow-io-gcs-filesystem" />
+            <item index="52" class="java.lang.String" itemvalue="kafka-python" />
+            <item index="53" class="java.lang.String" itemvalue="jmespath" />
+            <item index="54" class="java.lang.String" itemvalue="python-socketio" />
+            <item index="55" class="java.lang.String" itemvalue="boto3" />
+            <item index="56" class="java.lang.String" itemvalue="importlib-resources" />
+            <item index="57" class="java.lang.String" itemvalue="aioredis" />
+            <item index="58" class="java.lang.String" itemvalue="cachetools" />
+            <item index="59" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="60" class="java.lang.String" itemvalue="grpcio" />
+            <item index="61" class="java.lang.String" itemvalue="dask" />
+            <item index="62" class="java.lang.String" itemvalue="pika" />
+            <item index="63" class="java.lang.String" itemvalue="questionary" />
+            <item index="64" class="java.lang.String" itemvalue="msgpack" />
+            <item index="65" class="java.lang.String" itemvalue="randomname" />
+            <item index="66" class="java.lang.String" itemvalue="libclang" />
+            <item index="67" class="java.lang.String" itemvalue="qiskit-terra" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

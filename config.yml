@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3a6a5866466d8fc382f8be79ffd65cd43bb8a7d58f90da89838c8d9e80887672
-size 335
+path: C:\Users\snehal\PycharmProjects\AI-Basketball-Rule-Violation-Detection\data\bodyKeypoints\images
+train: train
+val: valid
+
+# Keypoints
+kpt_shape: [17, 3]  # [number of keypoints, number of dim]
+flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+# Classes
+names:
+  0: Basketball Player
+  1: Basketball

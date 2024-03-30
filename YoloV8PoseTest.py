@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:46721bc7bfff133295a10e5b8e3e2d4d42b47f0745eed07df45e94de32808db0
-size 424
+from ultralytics import YOLO
+
+# Load a model
+model = YOLO('yolov8m-pose.pt')  # load an official model
+# model = YOLO('path/to/yolov8n-pose-best.pt')  # load a custom model
+
+# Predict with the model
+# results = model('https://ultralytics.com/images/bus.jpg')  # predict on an image
+
+results = model(source=r"C:\Users\snehal\PycharmProjects\PoseEstimationTrainer\data\tadasana.png", show=True, conf=0.3, save=True)

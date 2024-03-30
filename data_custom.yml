@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e411183a7745e51dce112e88ceda4e4e7d332162cde39074ba994d41cc0d716
-size 415
+train: C:\Users\snehal\PycharmProjects\AI-Basketball-Rule-Violation-Detection\data\basketballImageData\train
+val: C:\Users\snehal\PycharmProjects\AI-Basketball-Rule-Violation-Detection\data\basketballImageData\valid
+#train: C:\Users\snehal\PycharmProjects\AI-Basketball-Referee\data\train
+#val: C:\Users\snehal\PycharmProjects\AI-Basketball-Referee\data\valid
+
+nc : 3
+
+names : ['basketball', 'player', 'rim']

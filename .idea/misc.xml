@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1c226a5f2fbbec292cb422a4a7bb64d6deded1ba9e8c9c1880563569391e91ae
-size 199
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="AI-Basketball-Referee" project-jdk-type="Python SDK" />
+</project>

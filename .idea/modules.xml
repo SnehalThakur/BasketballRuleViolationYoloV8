@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60dc972dac4afd56853533f3e0efd01828ff8d7755bf4adca60235fae49302c1
-size 335
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AI-Basketball-Rule-Violation-Detection.iml" filepath="$PROJECT_DIR$/.idea/AI-Basketball-Rule-Violation-Detection.iml" />
+    </modules>
+  </component>
+</project>
